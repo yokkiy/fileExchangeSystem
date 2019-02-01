@@ -1,0 +1,76 @@
+﻿body {
+	line-height: 1;
+	background: #ffffff;
+}
+
+#box {
+	width: auto;
+	height:auto;
+	margin-top: 5px;
+	margin-right: 10%;;
+	margin-bottom: 0px;
+	margin-left: 10%;
+	padding: 20px;
+	display: block;
+	background: #adffad;
+}
+
+#box1 {
+	width: auto;
+	height: auto;
+	margin-top: 0px;
+	margin-right: 10%;
+	margin-bottom: 15px;
+	margin-left: 10%;
+	padding: 20px;
+	display:block;
+	background: #eaffea;
+}
+#box2 {
+    width: 50%;
+    height: auto;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    display:block;
+}
+#box3 {
+    width: 40%;
+    height: auto;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    display:block;
+    background: green;
+}
+p {
+	font-family: 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'ヒラギノ角ゴ Pro W3',
+		'Hiragino Kaku Gothic Pro', 'Osaka', sans-serif;
+	margin-bottom: 5px;
+}
+ボタン設定
+submit_button {
+    font-size: 1.2em;
+    height:100px;
+    width:auto;
+}
+.square_btn {
+    position: relative;
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    text-decoration: none;
+    color: #FFF;
+    background: #03A9F4; /*色*/
+    border: solid 1px #0f9ada; /*線色*/
+    border-radius: 4px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2);
+    text-shadow: 0 1px 0 rgba(0,0,0,0.2);
+}
+
+.square_btn:active {/*押したとき*/
+    border: solid 1px #03A9F4;
+    box-shadow: none;
+    text-shadow: none;
+}

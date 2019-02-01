@@ -1,0 +1,40 @@
+﻿/* normalize.css v1.0.0*/
+html{font-family: serif;}
+h1 {font-family:fantasy;
+	text-align:center;
+	font-size: 50pt;
+}
+
+h2 {font-family:cursive;
+	text-align:center;
+	font-size: 40pt;
+	background: rgb(115,239,196);
+}
+
+h3 {font-family:monospace;
+	text-align:center;
+	font-size: 30pt;
+	background:rgb(255,181,224) ;
+}
+login{font-family:monospace;
+	text-align:center;
+	font-size: 16pt;
+}
+p {font-size: 16pt;
+	color: black;
+}
+p2 {font-size: 16pt;
+    float:right;
+	color: black;
+}
+a{font-size: 16px;
+  float:center;
+}
+#wrapper {
+	background:rgb(255,255,255);
+	display: block;
+	width: 1000px;
+	margin: 0px auto 0px auto;
+}
+#footer{margin:0px auto 10px auto;
+background-color: rgb(223, 255, 135);}
